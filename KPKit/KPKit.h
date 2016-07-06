@@ -10,11 +10,13 @@
 #define KPKit_h
 
 #import "KPButton.h"
+#import "KPUUIDString.h"
 #import "KPTimeState.h"
 #import "KPColorImage.h"
 #import "NSArray+KPJson.h"
 #import "UILabel+KPSize.h"
 #import "UIImage+KPTint.h"
 #import "UIView+KPExtension.h"
+#import "UIImageView+KPCorner.h"
 
 #endif /* KPKit_h */

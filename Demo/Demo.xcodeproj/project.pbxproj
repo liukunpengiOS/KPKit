@@ -22,6 +22,8 @@
 		2AC9B7221D2CDF04007D226A /* KPColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B7211D2CDF04007D226A /* KPColorImage.m */; };
 		2AC9B7291D2CE264007D226A /* UIImage+KPTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B7281D2CE264007D226A /* UIImage+KPTint.m */; };
 		2AC9B7301D2CE399007D226A /* NSArray+KPJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B72F1D2CE399007D226A /* NSArray+KPJson.m */; };
+		2AC9B7341D2CEC92007D226A /* KPUUIDString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B7331D2CEC92007D226A /* KPUUIDString.m */; };
+		2AF7EDF91D2D157A00598289 /* UIImageView+KPCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7EDF81D2D157A00598289 /* UIImageView+KPCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		2AC9B7281D2CE264007D226A /* UIImage+KPTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KPTint.m"; sourceTree = "<group>"; };
 		2AC9B72E1D2CE399007D226A /* NSArray+KPJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KPJson.h"; sourceTree = "<group>"; };
 		2AC9B72F1D2CE399007D226A /* NSArray+KPJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KPJson.m"; sourceTree = "<group>"; };
+		2AC9B7321D2CEC92007D226A /* KPUUIDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPUUIDString.h; sourceTree = "<group>"; };
+		2AC9B7331D2CEC92007D226A /* KPUUIDString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPUUIDString.m; sourceTree = "<group>"; };
+		2AF7EDF71D2D157A00598289 /* UIImageView+KPCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KPCorner.h"; sourceTree = "<group>"; };
+		2AF7EDF81D2D157A00598289 /* UIImageView+KPCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KPCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +176,12 @@
 				2AC9B70E1D2CDE22007D226A /* KPButton */,
 				2AC9B7111D2CDE22007D226A /* KPTimeState */,
 				2AC9B71F1D2CDF04007D226A /* KPColorImage */,
+				2AC9B7311D2CEC92007D226A /* KPUUIDString */,
 				2AC9B7231D2CE249007D226A /* UIImage+KPTint */,
 				2AC9B7141D2CDE22007D226A /* UILabel+KPSize */,
 				2AC9B72A1D2CE379007D226A /* NSArray+KPJson */,
 				2AC9B7171D2CDE22007D226A /* UIView+KPExtension */,
+				2AF7EDF31D2D154200598289 /* UIImageView+KPCorner */,
 			);
 			name = KPKit;
 			path = ../KPKit;
@@ -240,6 +248,24 @@
 				2AC9B72F1D2CE399007D226A /* NSArray+KPJson.m */,
 			);
 			path = "NSArray+KPJson";
+			sourceTree = "<group>";
+		};
+		2AC9B7311D2CEC92007D226A /* KPUUIDString */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9B7321D2CEC92007D226A /* KPUUIDString.h */,
+				2AC9B7331D2CEC92007D226A /* KPUUIDString.m */,
+			);
+			path = KPUUIDString;
+			sourceTree = "<group>";
+		};
+		2AF7EDF31D2D154200598289 /* UIImageView+KPCorner */ = {
+			isa = PBXGroup;
+			children = (
+				2AF7EDF71D2D157A00598289 /* UIImageView+KPCorner.h */,
+				2AF7EDF81D2D157A00598289 /* UIImageView+KPCorner.m */,
+			);
+			path = "UIImageView+KPCorner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,7 +407,9 @@
 				2AC9B6DF1D2CDDDA007D226A /* AppDelegate.m in Sources */,
 				2AC9B71D1D2CDE22007D226A /* UIView+KPExtension.m in Sources */,
 				2AC9B6DC1D2CDDDA007D226A /* main.m in Sources */,
+				2AC9B7341D2CEC92007D226A /* KPUUIDString.m in Sources */,
 				2AC9B71B1D2CDE22007D226A /* KPTimeState.m in Sources */,
+				2AF7EDF91D2D157A00598289 /* UIImageView+KPCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +635,7 @@
 				2AC9B7061D2CDDDA007D226A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC9B7071D2CDDDA007D226A /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -615,6 +644,7 @@
 				2AC9B7091D2CDDDA007D226A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC9B70A1D2CDDDA007D226A /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +653,7 @@
 				2AC9B70C1D2CDDDA007D226A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
