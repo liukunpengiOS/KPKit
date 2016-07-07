@@ -9,6 +9,7 @@
 #ifndef KPKit_h
 #define KPKit_h
 
+//功能类
 #import "KPButton.h"
 #import "KPUUIDString.h"
 #import "KPTimeState.h"
@@ -18,5 +19,8 @@
 #import "UIImage+KPTint.h"
 #import "UIView+KPExtension.h"
 #import "UIImageView+KPCorner.h"
+
+//网络请求类
+#import "KPHTTPClient.h"
 
 #endif /* KPKit_h */
