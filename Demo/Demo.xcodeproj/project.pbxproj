@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ABA78731D2DF7FA0045C7DE /* KPToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA78721D2DF7FA0045C7DE /* KPToModel.m */; };
 		2AC9B6DC1D2CDDDA007D226A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B6DB1D2CDDDA007D226A /* main.m */; };
 		2AC9B6DF1D2CDDDA007D226A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B6DE1D2CDDDA007D226A /* AppDelegate.m */; };
 		2AC9B6E21D2CDDDA007D226A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9B6E11D2CDDDA007D226A /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ABA78711D2DF7FA0045C7DE /* KPToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPToModel.h; sourceTree = "<group>"; };
+		2ABA78721D2DF7FA0045C7DE /* KPToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPToModel.m; sourceTree = "<group>"; };
 		2AC9B6D71D2CDDDA007D226A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC9B6DB1D2CDDDA007D226A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AC9B6DD1D2CDDDA007D226A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ABA78701D2DF7FA0045C7DE /* KPToModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ABA78711D2DF7FA0045C7DE /* KPToModel.h */,
+				2ABA78721D2DF7FA0045C7DE /* KPToModel.m */,
+			);
+			path = KPToModel;
+			sourceTree = "<group>";
+		};
 		2AC9B6CE1D2CDDDA007D226A = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +189,7 @@
 				2AC9B7111D2CDE22007D226A /* KPTimeState */,
 				2AC9B71F1D2CDF04007D226A /* KPColorImage */,
 				2AC9B7311D2CEC92007D226A /* KPUUIDString */,
+				2ABA78701D2DF7FA0045C7DE /* KPToModel */,
 				2AC9B7231D2CE249007D226A /* UIImage+KPTint */,
 				2AC9B7141D2CDE22007D226A /* UILabel+KPSize */,
 				2AC9B72A1D2CE379007D226A /* NSArray+KPJson */,
@@ -400,6 +413,7 @@
 			files = (
 				2AC9B7291D2CE264007D226A /* UIImage+KPTint.m in Sources */,
 				2AC9B71C1D2CDE22007D226A /* UILabel+KPSize.m in Sources */,
+				2ABA78731D2DF7FA0045C7DE /* KPToModel.m in Sources */,
 				2AC9B7221D2CDF04007D226A /* KPColorImage.m in Sources */,
 				2AC9B71A1D2CDE22007D226A /* KPButton.m in Sources */,
 				2AC9B6E21D2CDDDA007D226A /* ViewController.m in Sources */,

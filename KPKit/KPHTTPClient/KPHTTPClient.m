@@ -112,6 +112,7 @@ typedef NS_ENUM(NSUInteger, LYHTTPClientRequestType) {
                                 success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                                 failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure{
      KPHTTPClient *manager = [KPHTTPClient sharedClient];
+     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"text/plain",@"application/json",@"text/json",@"text/javascript",@"text/html",nil]];
      [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
      manager.requestSerializer.timeoutInterval = timeoutInterval;
      [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
